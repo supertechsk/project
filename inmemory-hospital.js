@@ -58,7 +58,7 @@ app.put("/", (req, res) =>{
     }
 })
 
-// for delete all unhealthykidneys
+// ***** for delete all unhealthykidneys *******/
 app.delete("/", (req,res) => {
     for(let i = 0; i<users[0].kidneys.length;i++){
         const newKidneys = [];
