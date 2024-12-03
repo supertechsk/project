@@ -45,7 +45,7 @@ app.post("/", (req,res) => {
     })
 } )
 
-// user can replace all kidney make it healthy 
+// user can replace all kidneys make it healthy 
 app.put("/", (req, res) =>{
     for (let i = 0; i < users[0].kidneys.length; i++) {
         users[0].kidneys[i].healthy = true;
@@ -58,7 +58,7 @@ app.put("/", (req, res) =>{
     }
 })
 
-// ***** for delete all unhealthykidneys *******/
+// ***** for delete all unhealthy kidneys *******/
 app.delete("/", (req,res) => {
     for(let i = 0; i<users[0].kidneys.length;i++){
         const newKidneys = [];
