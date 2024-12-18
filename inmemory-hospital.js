@@ -1,5 +1,5 @@
 // create a InMemory Hospital.   
-// Hospital backend 
+// Hospital backend project
 
 const express = require('express'); 
 const app = express();
